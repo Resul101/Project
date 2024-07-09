@@ -7,21 +7,21 @@
     font-family: sans-serif;
 } 
 header{
-    display: flex;
+    display: flexbox;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
-    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
 }
 
 .forLogo{
-    margin-left: 50px;
+    margin-left: 450px;
 }
 .forLogo{
 color: beige;
 }
 .navbar{
-    margin-right: 50px;
+    margin-left: 450px;
 }
 
 
@@ -33,10 +33,10 @@ ul li{
     margin-right: 30px;
 }
 ul li a{
-    color: rgb(255, 255, 255);
+    color: rgb(199, 189, 189);
 }
 
-.Experience{
+.Projects{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,18 +44,29 @@ ul li a{
     height: 40vh;
 }
 
-.Hi h2{
+.Welcome h2{
 font-size: 40px;
 }
-.description{
+.description p{
     margin: 20px 10px;
 }
 .description p{
+    font-size: 17px;
+}
+main{
+    background-color: rgb(170, 170, 170);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+.About p{
+    margin: 20px 10px;
     font-size: 19px;
 }
-.learnMore{
-    color: beige;
-    background-color: chocolate;
-    padding: 20px;
-    border-radius: 40px;
+.Contact{
+    display: flex;
 }
